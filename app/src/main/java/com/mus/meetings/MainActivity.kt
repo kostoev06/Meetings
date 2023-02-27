@@ -189,6 +189,12 @@ class MainActivity : ComponentActivity() {
                         }
 
                         Spacer(modifier = Modifier.weight(1f))
+                        Box(
+                            modifier = Modifier
+                                .size(50.dp, 5.dp)
+                                .align(CenterHorizontally)
+                                .background(Color.White, CircleShape)
+                        )
                         Row(
                             modifier = Modifier
                                 .padding(16.dp)
